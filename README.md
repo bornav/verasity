@@ -1,1 +1,5 @@
-/home/bocmo/qmk_firmware/keyboards/verasity/87/rev1/readme.md
+# Verasity
+
+Open source tenkeyless keyboard
+
+* Keyboard Maintainer: [Borna Vincek](https://github.com/BornaV)
