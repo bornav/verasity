@@ -1,5 +1,5 @@
 /*
-Copyright 2021 Borna Vincek
+Copyright 2021 Inbendingung
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -23,8 +23,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID 0xFEED
 #define PRODUCT_ID 0x8DEF
 #define DEVICE_VER 0x0001
-#define MANUFACTURER Koichi Katano
+#define MANUFACTURER Inbendingung
 #define PRODUCT verasity 87
+#define DESCRIPTION verasity 87
+
 
 /* key matrix size */
 #define MATRIX_ROWS 6
@@ -87,7 +89,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #endif
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 2
+#define DEBOUNCE 5
 
 /* define if matrix has ghost (lacks anti-ghosting diodes) */
 //#define MATRIX_HAS_GHOST
@@ -193,8 +195,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_ONESHOT
 
 /* disable these deprecated features by default */
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
+//#define NO_ACTION_MACRO
+//#define NO_ACTION_FUNCTION
 /*
  * MIDI options
  */
