@@ -1,11 +1,35 @@
-{
-    "keyboard_name": "verasity 87",
+{  
+    "keyboard_name": "verasity97",
+    "manufacturer": "icecoldlair",
     "maintainer": "inbendingung",
-    "name": "verasity 87",
-    "vendorId": "0xFEED",
-    "productId": "0x8DEF",
+    "name": "verasity97",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x8DEF",
+        "device_version": "2.1.0"
+    },
     "lighting": "none",
-    "matrix": { "rows": 6, "cols": 16 },
+    "matrix": { "rows": 6, "cols": 17 },
+    "diode_direction": "ROW2COL",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "debounce": 5,
+    "features": {
+        "audio": false,
+        "backlight": false,
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": true,
+        "rgb_matrix": false,
+        "rgblight": false
+    },
+    "matrix_pins": {
+        "rows": [ "GP24","GP26","GP27","GP28","GP23","GP29" ],
+        "cols": [ "GP25","GP15","GP14","GP13","GP12","GP11","GP10","GP9","GP8","GP7","GP6","GP5","GP4","GP3","GP2","GP1","GP0" ]
+    },
     "layouts": {
         "LAYOUT_tkl_ansi": {
             "layout": [
@@ -75,7 +99,10 @@
                 {"label":"L", "x":9.75, "y":3}, 
                 {"label":":", "x":10.75, "y":3},
                 {"label":"\"", "x":11.75, "y":3}, 
-                {"label":"Enter", "x":12.75, "y":3, "w":2.25}, 
+                {"label":"Enter", "x":12.75, "y":3}, 
+                {"label":"Custom1", "x":13.75, "y":3}, 
+                {"label":"Custom2", "x":14.75, "y":3}, 
+                {"label":"Custom3", "x":15.75, "y":3}, 
 
                 {"label":"Shift", "x":0, "y":4, "w":2.25}, 
                 {"label":"Z", "x":2.25, "y":4}, 
@@ -88,13 +115,20 @@
                 {"label":"<", "x":9.25, "y":4}, 
                 {"label":">", "x":10.25, "y":4}, 
                 {"label":"?", "x":11.25, "y":4}, 
+                {"label":"Custom4", "x":12, "y":4}, 
                 {"label":"Shift", "x":12.25, "y":4, "w":2.75}, 
+                {"label":"Custom5", "x":13.75, "y":4}, 
                 {"label":"\u2191", "x":16.1, "y":4}, 
+                {"label":"Custom6", "x":14.75, "y":4}, 
 
                 {"label":"Ctrl", "x":0, "y":5, "w":1.25}, 
                 {"label":"Win", "x":1.25, "y":5, "w":1.25}, 
                 {"label":"Alt", "x":2.5, "y":5, "w":1.25}, 
                 {"label":"Space", "x":3.75, "y":5, "w":6.25}, 
+                {"label":"Custom7", "x":4.75, "y":5}, 
+                {"label":"Custom8", "x":5.75, "y":5}, 
+                {"label":"Custom9", "x":6.75, "y":5}, 
+                {"label":"Custom10", "x":7.75, "y":5}, 
                 {"label":"Alt", "x":10, "y":5, "w":1.25}, 
                 {"label":"Win", "x":11.25, "y":5, "w":1.25}, 
                 {"label":"Menu", "x":12.5, "y":5, "w":1.25}, 

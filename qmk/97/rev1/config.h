@@ -17,20 +17,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#include "config_common.h"
-
 /* USB Device descriptor parameter */
-#define VENDOR_ID 0xFEED
-#define PRODUCT_ID 0x8DEF
-#define DEVICE_VER 0x0001
-#define MANUFACTURER Inbendingung
-#define PRODUCT verasity 87
-#define DESCRIPTION verasity 87
+// #define VENDOR_ID 0xFEED
+// #define PRODUCT_ID 0x8DEF
+// #define DEVICE_VER 0x0001
+// #define MANUFACTURER Inbendingung
+// #define PRODUCT verasity97
+//#define DESCRIPTION verasity97
 
 
 /* key matrix size */
-#define MATRIX_ROWS 6
-#define MATRIX_COLS 17
+// #define MATRIX_ROWS 6
+// #define MATRIX_COLS 17
 
 /*
  * Keyboard Matrix Assignments
@@ -43,13 +41,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
-#define MATRIX_ROW_PINS { F4, F5, F6, F7, F0, F1 }
-#define MATRIX_COL_PINS { C7, C6, B6, B5, B4, D7, D6, D4, D5, D3, D2, D1, D0, B7, B3, B2, B1 }
-
-#define UNUSED_PINS
+// #define MATRIX_ROW_PINS { GP23,GP24,GP26,GP27,GP28,GP29 }
+// #define MATRIX_COL_PINS { GP0,GP1,GP2,GP3,GP4,GP5,GP6,GP7,GP8,GP9,GP10,GP11,GP12,GP13,GP14,GP15,GP25 }
+// #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
-#define DIODE_DIRECTION ROW2COL
+// #define DIODE_DIRECTION ROW2COL
 
 /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
@@ -89,7 +86,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #endif
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
+// #define DEBOUNCE 5
 
 /* define if matrix has ghost (lacks anti-ghosting diodes) */
 //#define MATRIX_HAS_GHOST
